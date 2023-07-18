@@ -65,7 +65,7 @@ def getData(userName):
             description = repo.select_one('p[itemprop*=description]').get_text().strip()
        except:
             description = ''
-       repo_info.append({'name': name ,
+       repo_info.append({'name': name,
       'link': link ,
       'updated ':updated ,
       'language': language ,
